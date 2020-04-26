@@ -1,0 +1,238 @@
+body{
+margin:0px;
+background-color: #1e2452;
+}
+
+header{
+    background-color: #1e2452;
+    height: 150px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+/*Des codes pour organizer le menu, la droit des options pour de vendeur et du client, 
+au millieu la logo et a gauche des options pour l'achat*/
+.menu-gauche{
+    list-style: none;
+    float: left;
+}
+.menu-gauche li {
+    position: relative;
+    float: left;
+    margin:40px;
+}
+.menu-gauche a{
+    color: #fdba13;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+#logo{
+    height: 110px;
+    padding-top: 25px;
+}
+.menu-droit{
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+}
+.menu-droit li {
+    position: relative;
+    float: right;
+    margin:40px;
+}
+.menu-droit a{
+    color: #fdba13;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+
+main{
+    background-color: #f9edd6;
+    padding: 40px 100px 25px 80px;
+    margin:0px;  
+}
+h1{
+    color: #ed6635;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    margin-top: 0px;
+}
+h2{
+    color: #ed6635;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    display: inline;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color:#1e2452;
+    font-size: 20px;
+    padding-top: 7px;
+    margin:0px;
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+    color:#1e2452;
+    font-size: 20px;
+    padding-top: 7px;
+    margin:0px;
+    text-decoration: none;
+}
+li{
+    color: #fdba13;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+/*Image derrier le titre*/
+.background h1{
+    position: absolute;
+    margin-top:-75px;
+    margin-left:10px;
+    color: #fdba13;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+}
+
+/*Boîtes pour bienn diviser des options disponibles dans chaque categorie dans la page principale*/
+.box-cat{
+    width: 150px;
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+}
+.box-cat a{
+    text-decoration: none;
+}
+
+th{
+    padding: 20px;
+}
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+.box{
+    background-color: rgba(253, 187, 19, 0.822);
+    width: 30%;
+    height: 500px;
+    display: inline-table;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+}
+.box img{
+    padding: 15px;
+}
+.box h2{
+    color: #f9edd6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top:45px;
+    margin-left:-390px;
+}
+.box p{
+    font-family: 'Open Sans', sans-serif;
+    color:#1e2452;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin:0px;
+}
+.box ul{
+    float:left;
+    width: 80%;
+    list-style: square;
+}
+.box li{
+    font-family: 'Open Sans', sans-serif;
+    color:#ed6635;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 60px;
+    padding-left: 0px;
+    margin:10px;
+    position: relative;
+    float: right;
+}
+.box button{
+  background-color: rgba(69,89,135, 0.85);
+  padding: 14px 20px;
+  margin: auto;
+  /*border-radius: 8px;*/
+  border: none;
+  color: #f9edd6;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  height: 10px;
+  width: 300px;
+  display:block;
+  transition-duration: 0.4s;
+  transform: rotate(-5deg)
+}
+.box button:hover{
+    background-color:#455987;
+}
+.box label{
+    font-family: 'Open Sans', sans-serif;
+    color:#1e2452;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+.box input{
+    height: 25px;
+    padding: 0 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(249, 237, 214, 0.767);
+}
+
+
+/*id exclusive pour la page d'erreur*/
+#erreur{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+}
+#erreur p{
+    font-size: 60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#1e2452;
+    padding-top: 7px;
+    margin:0px;
+}
+
+footer{
+    background-color: #1e2452;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+/*NON UTILISE*/
+
+nav{
+    /*background-color:rgba(237, 102, 53);*/
+    background-color:rgb(253, 186, 19);
+    height: 80px;
+    width: 100%;
+    margin:0px;
+    padding-top: 20px;
+    text-align: center;
+
+}
