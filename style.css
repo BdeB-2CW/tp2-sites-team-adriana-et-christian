@@ -54,8 +54,11 @@ au millieu la logo et a gauche des options pour l'achat*/
 
 main{
     background-color: #f9edd6;
-    padding: 40px 100px 25px 80px;
+    padding: 40px 80px 25px 80px;
     margin:0px;  
+}
+.taille-main{
+    height: 870px;
 }
 h1{
     color: #ed6635;
@@ -101,6 +104,14 @@ li{
     font-family: 'Open Sans', sans-serif;
     font-size: 45px;
 }
+.background h3{
+    position: absolute;
+    margin-top:-50px;
+    margin-left:10px;
+    color: #1e2452;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
 
 /*Boîtes pour bienn diviser des options disponibles dans chaque categorie dans la page principale*/
 .box-cat{
@@ -117,13 +128,116 @@ th{
     padding: 20px;
 }
 
+/*Dans la page des magasins, il faut diviser la page en deux. Ceci est la partie d'articles*/
+#produit{
+    width: 980px;
+    float: left;
+}
+.box-article{
+    width: 260px;
+    height: 300px;
+    display: inline-block;
+    margin:0px;
+    padding: 30px 20px;
+    text-align: center;
+}
+.box-article li{
+    list-style-type: none;
+}
+.taille-item{
+    height: 60px;
+    text-align: center;
+}
+.box-article p{
+    color:#ed6635;
+}
+.box-article h2{
+    font-size: 22px;
+}
+
+/*Dans la page magasin, il faut avoir une partie pour la description du commerce. Ceci est cette partie.*/
+.aside{
+    display: inline-block;
+    padding: 30px 10px 30px 40px;
+    width: 600px;
+    height: 650px;
+}
+.aside p{
+    height: 200px;
+    margin: 40px;
+    margin-bottom:0px;
+    padding: 75px;
+    background-color: #ed66357a;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.aligne{
+    padding: 0px;
+    margin: 15px 40px 40px 60px;
+}
+
+/**/
+.container{
+    background-color: #fdba13;
+    padding: 40px;
+    height: 600px;
+    width: 1000px;
+    margin-right: 80px;
+    margin-top: 80px;
+    float: left;
+}
+.container h1{
+    color: #f9edd6;
+}
+#insert{
+    text-align: right;
+}
+.container ul{
+    padding: 0px;
+}
+.container li{
+    color: #1e2452;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 12px;
+}
+.container input{
+    width: 550px;
+    height: 30px;
+    background-color: #f9edd6a4;
+    border-radius: 5px;
+    border: 0px;
+    color: #1e2452;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.image-compte{
+    width: 300px;
+    margin: 130px 80px;
+}
+#clickMe{
+    width: 300px;
+    height: 90px;
+    background-color: #ed6635;
+    border-radius: 15   px;
+    border: 20px solid #fdba13;
+    color: #1e2452;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
 /*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 .box{
     background-color: rgba(253, 187, 19, 0.822);
     width: 30%;
-    height: 500px;
+    height: 700px;
     display: inline-table;
-    margin: 10px;
+    margin: 70px 10px;
     padding: 0px;
     text-align: center;
 }
@@ -169,16 +283,17 @@ th{
   background-color: rgba(69,89,135, 0.85);
   padding: 14px 20px;
   margin: auto;
-  /*border-radius: 8px;*/
+  margin-top:20px;
+/*  border-radius: 8px;*/
   border: none;
   color: #f9edd6;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  height: 10px;
+  height: 40px;
   width: 300px;
   display:block;
   transition-duration: 0.4s;
-  transform: rotate(-5deg)
+  transform: rotate(-5deg);
 }
 .box button:hover{
     background-color:#455987;
@@ -199,6 +314,9 @@ th{
     background-color: rgba(249, 237, 214, 0.767);
 }
 
+.login {
+    margin: 60px;
+}
 
 /*id exclusive pour la page d'erreur*/
 #erreur{
@@ -220,19 +338,5 @@ footer{
     background-color: #1e2452;
     height: 100px;
     width: 100%;
-}
-
-
-
-/*NON UTILISE*/
-
-nav{
-    /*background-color:rgba(237, 102, 53);*/
-    background-color:rgb(253, 186, 19);
-    height: 80px;
-    width: 100%;
-    margin:0px;
-    padding-top: 20px;
-    text-align: center;
-
+    clear: both;
 }
